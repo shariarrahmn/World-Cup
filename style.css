@@ -1,7 +1,9 @@
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
+
 .top-banner{
     border-radius: 25px;
     display: flex;
@@ -278,4 +280,36 @@ footer{
         grid-row-gap: 20px;
     }
     
+}
+/* small screen laptop  */
+@media only screen and (min-width:1024px) and (max-width:1329px) {
+    .top-banner{
+        width: 1020px;
+    }
+    .top-info h2{
+        font-size: 40px;
+    }
+    .blogs{
+        grid-row-gap: 20px;
+        grid-column-gap: 1%;
+        margin-left: 10px;
+    }
+    .blog{
+      width: 275px;
+    }
+    .blog> img{
+        width:275px;
+    }
+    .menu{
+        width: 200px;
+        height: 270px;
+    }
+    .buttons{
+        width: 200px;
+        height: 300px;
+    }
+    .button{
+        font-size: 20px;
+        margin-top: 15px;
+    }
 }

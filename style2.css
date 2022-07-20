@@ -254,3 +254,38 @@ footer{
         grid-row-gap: 20px;
     }
 }
+/* small screen laptop  */
+@media only screen and (min-width:1024px) and (max-width:1329px) {
+    .top-banner{
+        width: 1020px;
+    }
+    .top-info h2{
+        font-size: 40px;
+    }
+    .menu{
+        width: 200px;
+        height: 270px;
+    }
+    .buttons{
+        width: 200px;
+        height: 300px;
+    }
+    .button{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .matchs{
+
+    }
+    .match{
+        margin-left: 40px;
+        width: 225px;
+        padding: 50px 5px;
+    }
+    .match-top-part{
+
+    }
+    .match-top-part>img{
+        width: 78px;
+    }
+}
